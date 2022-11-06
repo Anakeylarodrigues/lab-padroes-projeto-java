@@ -1,4 +1,4 @@
-package DESAFIO_GoF;
+package desafio_gof.singleton;
 
 public class SingletonLazyHolder {
     
