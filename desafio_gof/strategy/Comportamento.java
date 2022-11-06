@@ -1,5 +1,5 @@
 package desafio_gof.strategy;
 
-public class Comportamento {
-    
+public interface Comportamento {
+    void mover();
 }
