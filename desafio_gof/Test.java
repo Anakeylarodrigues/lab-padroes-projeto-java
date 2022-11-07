@@ -1,5 +1,6 @@
 package desafio_gof;
 
+import desafio_gof.facade.Facade;
 import desafio_gof.singleton.SingletonEager;
 import desafio_gof.singleton.SingletonLazy;
 import desafio_gof.singleton.SingletonLazyHolder;
@@ -46,5 +47,10 @@ public class Test {
         robo.mover();
         robo.mover();
         robo.mover();
+
+        // Facade:
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Ana", "13300000");
     }
 }
